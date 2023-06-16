@@ -1,0 +1,20 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "thepeicka1@gmail.com",
+                "Name": "Leoš Tobolka"
+            }
+        ],
+        "Category": "Application Launchers",
+        "Description": "An applet to run an executable with parameter from the configurable slider.",
+        "Icon": "configure-toolbars",
+        "Id": "com.github.leostobolka.leo-brightness",
+        "Name": "Slider execute",
+        "Version": "1.1",
+        "Website": "https://github.com/Tobo7/slider-widget"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "KPackageStructure": "Plasma/Applet"
+}
