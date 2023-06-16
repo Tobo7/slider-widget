@@ -10,8 +10,8 @@
         "Description": "An applet to run an executable with parameter from the configurable slider.",
         "Icon": "brightness-high",
         "Id": "com.github.leostobolka.leo-brightness",
-        "Name": "Leo brightness",
-        "Version": "1.2",
+        "Name": "Slider execute",
+        "Version": "1.0",
         "Website": "https://github.com/Tobo7/slider-widget"
     },
     "X-Plasma-API": "declarativeappletscript",
