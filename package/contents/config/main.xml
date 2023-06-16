@@ -7,9 +7,26 @@
             <default>video-display-brightness</default>
         </entry>
 
-        <entry name="defaultBrightness" type="Int">
-            <default>50</default>
-        </entry>
+    <entry name="executable" type="String">
+        <default></default>
+    </entry>
+
+    <entry name="min" type="Int">
+        <default>0</default>
+    </entry>
+
+    <entry name="max" type="Int">
+        <default>100</default>
+    </entry>
+
+    <entry name="step" type="Int">
+        <default>5</default>
+    </entry>
+
+    <entry name="init" type="Int">
+        <default>100</default>
+    </entry>
+
 
     </group>
 </kcfg>

@@ -2,17 +2,17 @@
     "KPlugin": {
         "Authors": [
             {
-                "Email": "leostobolka@gmail.com",
+                "Email": "thepeicka1@gmail.com",
                 "Name": "Leoš Tobolka"
             }
         ],
         "Category": "System Information",
-        "Description": "A widget to take over the world!",
+        "Description": "Slider widget",
         "Icon": "brightness-high",
         "Id": "com.github.leostobolka.leo-brightness",
         "Name": "Leo brightness",
-        "Version": "1.1",
-        "Website": "https://github.com/Zren/plasmoid-helloworldplugin"
+        "Version": "1.2",
+        "Website": "https://github.com/Tobo7/slider-widget"
     },
     "X-Plasma-API": "declarativeappletscript",
     "X-Plasma-MainScript": "ui/main.qml",

@@ -34,7 +34,7 @@ Item {
 
     Plasmoid.preferredRepresentation: Plasmoid.compactRepresentation
 
-    property int screenBrightness: 50
+    property int sliderValue: plasmoid.configuration.init
     property bool disabled: false
 
     Plasmoid.fullRepresentation: RowLayout {
@@ -46,19 +46,19 @@ Item {
         PlasmaComponents3.Slider {
                 id: slider
                 Layout.fillWidth: true
-                from: 0
-                to: 100
-                value: screenBrightness
-                stepSize: 5
+                from: plasmoid.configuration.min
+                to: plasmoid.configuration.max
+                value: sliderValue
+                stepSize: plasmoid.configuration.step
                 live: false
                 onValueChanged: {
                     if(!disabled) {
                         disabled = true
-                        screenBrightness = value
-                        executable.exec("leo-brightness " + screenBrightness + ";")
-                        screenBrightness
+                        sliderValue = value
+                        executable.exec(plasmoid.configuration.executable+" " + sliderValue + ";")
+                        sliderValue
                     } else {
-                        slider.value = screenBrightness
+                        slider.value = sliderValue
                     }
                 }
    
