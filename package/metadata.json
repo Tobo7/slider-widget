@@ -6,8 +6,8 @@
                 "Name": "Leoš Tobolka"
             }
         ],
-        "Category": "System Information",
-        "Description": "Slider widget",
+        "Category": "Application Launchers",
+        "Description": "An applet to run an executable with parameter from the configurable slider.",
         "Icon": "brightness-high",
         "Id": "com.github.leostobolka.leo-brightness",
         "Name": "Leo brightness",
