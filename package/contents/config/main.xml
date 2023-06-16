@@ -11,6 +11,10 @@
         <default></default>
     </entry>
 
+    <entry name="title" type="String">
+        <default>Slider:</default>
+    </entry>
+
     <entry name="min" type="Int">
         <default>0</default>
     </entry>

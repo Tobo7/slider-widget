@@ -9,6 +9,7 @@ Item {
 
     property alias cfg_icon: configIcon.value
     property alias cfg_executable: executable.text
+    property alias cfg_title: title.text
     property alias cfg_min: min.value
     property alias cfg_max: max.value
     property alias cfg_step: step.value
@@ -26,6 +27,11 @@ Item {
         TextField {
             id: executable
             Kirigami.FormData.label: "Executable:"
+        }
+
+        TextField {
+            id: title
+            Kirigami.FormData.label: "Title:"
         }
 
         SpinBox {

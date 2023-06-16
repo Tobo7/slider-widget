@@ -39,7 +39,7 @@ Item {
 
     Plasmoid.fullRepresentation: RowLayout {
         PlasmaComponents.Label {
-        text: "Brightess: "
+        text: plasmoid.configuration.title
         }
 
 
